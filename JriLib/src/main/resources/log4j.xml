@@ -3,7 +3,7 @@
 <log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/">
     
     <appender class="org.apache.log4j.RollingFileAppender" name="file">
-        <param value="./logs/WJRIAdapter.log" name="File"/>
+        <param value="./logs/JriLib.log" name="File"/>
         <param value="10" name="MaxBackupIndex"/>
         <param value="10MB" name="MaxFileSize"/>
         <layout class="org.apache.log4j.PatternLayout">
@@ -19,7 +19,7 @@
     </appender>
     
     <appender name="ErrorFileAppender" class="org.apache.log4j.RollingFileAppender">
-	    <param value="./logs/WJRIAdapter_Error.log" name="File"/>
+	    <param value="./logs/JriLib_Error.log" name="File"/>
 	    <param name="Threshold" value="error" />
 	    <param value="10" name="MaxBackupIndex"/>
         <param value="1MB" name="MaxFileSize"/>

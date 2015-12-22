@@ -88,7 +88,6 @@ public class JRInterfaceTest {
 	@Before
 	public void setUp() throws Exception {
 		log.info("-----------------------------------------------------------------START---------------------------------------------------------");
-		//System.setProperty("java.library.path", "C:/awnics/Api/workspace/blogit/mars-space/JriLib/src/lib");
 	}
 
 	/**
