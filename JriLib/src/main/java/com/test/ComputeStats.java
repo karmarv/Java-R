@@ -12,7 +12,7 @@ public class ComputeStats {
 	
 	public void test() {
 		try { 
-			log.info("-----------------------------EDGE-------------------------------------------");
+			log.info("-----------------------------SUM-------------------------------------------");
 			log.info("JRI Path "+ System.getProperty("java.library.path"));
 			// just making sure we have the right version of everything
 			if (!Rengine.versionCheck()) {

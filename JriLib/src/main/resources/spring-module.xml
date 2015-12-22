@@ -13,7 +13,7 @@
 	<bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
 		<property name="locations" >
 			<list>
-				<value>classpath:wjri.properties</value>
+				<value>classpath:jri.properties</value>
 			</list>
 		</property>
 		<property name="ignoreUnresolvablePlaceholders" value="true" />
